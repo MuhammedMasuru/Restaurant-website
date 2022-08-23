@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#main--container{
+	width: 100%;
+	/*height: 100vh;*/
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-around;
+	
+
+
+}
+
+.left--div{
+     width: 30%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+	justify-content: center;
+}
+
+.left--card{
+	width: 90%;
+	height: 20vh;
+	color: white;
+	background-color: tomato;
+	text-align: center;
+
+	
+}
+
+
+
+
+
+/*middle classs and it children*/
+.middle--div{
+      width: 30%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+     
+}
+.middle--div--child1{
+	 width: 100%;
+     height: 40vh;
+     padding: 1.5rem 2rem;
+     background: white;
+     border-radius: 1rem;
+}
+.middle--div--child2{
+	 width: 100%;
+     height: 58vh;
+     padding: 1.5rem 2rem;
+     background: white;
+     border-radius: 1rem;
+}
+
+
+
+
+
+
+ /*Right class and it children*/
+.right--div{
+     width: 30%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     
+}
+
+.right--div--child1{
+         width: 100%;
+         height: 58vh;
+          padding: 2rem;
+         background: white;
+         border-radius: 1rem;
+}
+
+.right--div--child2{
+     width: 100%;
+     height: 40vh;
+      padding: 2rem;
+     background: white; 
+     border-radius: 1rem;
+}
+p,li{
+	color: gray;
+
+}
+h3{
+	color: orangered;
+	padding-bottom: 1rem;
+}
+h4{
+     margin-bottom: 1rem;
+
+}
+
